@@ -5,7 +5,7 @@ import css from 'rollup-plugin-import-css';
 export default {
   input: 'src/PFDTrafficMapPlugin.tsx',
   output: {
-    file: 'dist/WTG1000PFDTrafficMap/wtg1000-pfd-traffic-map-plugin/PackageSources/Copys/wtg1000-pfd-traffic-map-plugin/Mods/PFDTrafficMapPlugin.js',
+    file: 'dist/WTG1000PFDTrafficMap/wtg1000-wtg1000-pfd-traffic-map-plugin/PackageSources/Copys/wtg1000-pfd-traffic-map-plugin/Mods/PFDTrafficMapPlugin.js',
     format: 'iife',
     name: 'pfdTrafficMap',
     globals: {

@@ -9,8 +9,8 @@
 
 .pfd-trafficmap .map-indicator-group-top-left {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     height: 50px;
     display: grid;
     grid-template-rows: 20px 30px;
@@ -22,18 +22,16 @@
 .pfd-trafficmap .map-minicompass {
     position: absolute;
     left: 3px;
-    top: 50px;
+    top: 20px;
     font-size: 10px;
 }
 
 .pfd-trafficmap .map-indicator-group-top-right {
     position: absolute;
-    right: 0px;
+    right: 1px;
     top: 0;
-    height: 50px;
-    display: grid;
-    grid-template-rows: 20px 30px;
-    grid-template-columns: auto;
-    justify-items: start;
-    align-items: start;
+    width:150px;
+    font-size: 16px;
+    align-items: stretch;
+    text-align: center;
 }
